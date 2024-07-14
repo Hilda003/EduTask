@@ -1,9 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.EduTask" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.EduTask" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
     </style>
 
     <style name="Theme.EduTask" parent="Base.Theme.EduTask" />
+
+    <style name="Theme.Fab_Bottom_app_bar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#5E8B7E</item>
+        <item name="colorPrimaryVariant">#A7C4BC</item>
+        <item name="colorOnPrimary">#000</item>
+    </style>
 </resources>
